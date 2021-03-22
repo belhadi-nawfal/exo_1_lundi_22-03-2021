@@ -1,0 +1,41 @@
+package exercice1;
+
+public class Livre {
+	private static int id;
+	private String titre;
+	private String auteur;
+	private int prix;
+	
+	public Livre(String titre, String auteur, int prix) {
+		super();
+		this.titre = titre;
+		this.auteur = auteur;
+		this.prix = prix;
+	}
+	
+	public int getPrix() {
+		return prix;
+	}
+	public void setPrix(int prix) {
+		this.prix = prix;
+	}
+	public String getAuteur() {
+		return auteur;
+	}
+	public void setAuteur(String auteur) {
+		this.auteur = auteur;
+	}
+	public String getTitre() {
+		return titre;
+	}
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
+	public static int getId() {
+		return id;
+	}
+	public static void setId(int id) {
+		Livre.id = id;
+	}
+	
+}

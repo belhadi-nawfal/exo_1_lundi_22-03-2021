@@ -1,0 +1,6 @@
+package exo_1_lundi;
+
+public class Voiture extends Vehicule{
+
+
+}

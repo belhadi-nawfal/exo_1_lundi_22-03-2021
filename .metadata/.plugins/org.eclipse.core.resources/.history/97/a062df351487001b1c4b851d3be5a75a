@@ -1,0 +1,15 @@
+package afpa;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Choisir un nombre :");
+		Scanner scanner = new Scanner(System.in);
+		int choix = scanner.nextInt();
+		System.out.println("Votre choix est "+choix);
+	}
+
+}
